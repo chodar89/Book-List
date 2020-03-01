@@ -70,6 +70,7 @@ document.getElementById("book-form").addEventListener("submit", function(e) {
     // Error alert
     ui.showAlert("Please fill in all fields", "error");
   } else {
+    console.log(book);
     // Add book to list
     ui.addBookToList(book);
 
